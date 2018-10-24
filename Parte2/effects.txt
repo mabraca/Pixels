@@ -1,0 +1,24 @@
+Say "You lost "
+Repeat 49 [Right]
+Say "THE"
+Delay 100 
+Say "THE."
+Delay 100 
+Say "THE.."
+Delay 100
+Say "THE..."
+Delay 110
+Say "GAME"
+Forever [Repeat 25 [Right],
+	 Repeat 10 [Color Green,Color Yellow,
+	 	    Left,
+		    Color Blue, Color Red,
+		    Right],
+	 Color White,
+	 Repeat 25 [Left],
+	 Repeat 10 [Color Green,Color Yellow,
+	 	    Right,
+	 	    Color Blue, Color Red,
+	 	    Left],
+	Color White
+	]
